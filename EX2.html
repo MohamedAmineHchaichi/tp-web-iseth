@@ -1,14 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <title>Exercice 2</title>
+<meta charset="utf-8"/>
+<title>Menu</title>
+<style>
+    h3 { text-align: center; }
+    ul.niv1 { list-style-type: circle; }
+    ul.niv2 { list-style-type: disc; }
+    ol.niv3a { list-style-type: lower-alpha; }
+    ol.niv3b { list-style-type: decimal; }
+</style>
 </head>
 <body>
-    <h1>Chapitre 1: Les bases de HTML5</h1>
-    <h2>Présentation de HTML5</h2>
-    <p>HTML est l'acronyme de HyperText Markup Language</p>
-    <h2>Les versions de HTML5</h2>
-    <p>Depuis 1991, HTML est passé par plusieurs versions: HTML, HTML+, HTML2.0, HTML 3.2, HTML4.0.1, XHTML et HTML5</p>
+<fieldset>
+    <h3>MENU</h3>
+    <ul class="niv1">
+        <li>Thé
+            <ul class="niv2">
+                <li>De Chine
+                    <ol class="niv3a">
+                        <li>Cerise</li>
+                        <li>Raisin</li>
+                    </ol>
+                </li>
+                <li>Vert</li>
+            </ul>
+        </li>
+        <li>Café
+            <ul class="niv2">
+                <li>Noir
+                    <ol class="niv3b">
+                        <li>Sucré</li>
+                        <li>Serré</li>
+                    </ol>
+                </li>
+                <li>Au Lait</li>
+            </ul>
+        </li>
+    </ul>
+</fieldset>
 </body>
 </html>
